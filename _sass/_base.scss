@@ -202,3 +202,19 @@ pre {
         }
     }
 }
+
+/* Tables */ 
+table{
+border-collapse: collapse;
+border: 1px solid black;
+}
+table td{
+border: 1px solid black;
+}
+table th{
+border: 1px solid black;
+background-color: #C0C0C0;
+}
+tr:nth-child(even) {
+    background-color: #F8F8F8 ;
+}
